@@ -17,6 +17,7 @@ import androidx.glance.background
 import androidx.glance.layout.Alignment
 import androidx.glance.layout.Column
 import androidx.glance.layout.Row
+import androidx.glance.layout.RowScope
 import androidx.glance.layout.Spacer
 import androidx.glance.layout.fillMaxSize
 import androidx.glance.layout.fillMaxWidth
@@ -111,7 +112,7 @@ private fun CompactForecastContent(data: WidgetWeatherData) {
 }
 
 @Composable
-private fun DayColumn(day: WidgetDailyItem) {
+private fun RowScope.DayColumn(day: WidgetDailyItem) {
     val dayLabel = try {
         val parts = day.date.split("-")
         val month = parts.getOrNull(1)?.toIntOrNull() ?: 0

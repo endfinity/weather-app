@@ -1,9 +1,9 @@
-﻿[versions]
-agp = "9.0.0"
+[versions]
+agp = "9.0.1"
 kotlin = "2.2.10"
 ksp = "2.2.10-2.0.2"
 compose-bom = "2026.01.01"
-hilt = "2.57.1"
+hilt = "2.59.1"
 hilt-navigation-compose = "1.2.0"
 navigation = "2.9.7"
 lifecycle = "2.10.0"
