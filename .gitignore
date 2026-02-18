@@ -39,3 +39,6 @@ android/.idea/
 android/captures/
 android/*.apk
 android/*.aab
+android/keystore.properties
+android/*.jks
+android/*.keystore

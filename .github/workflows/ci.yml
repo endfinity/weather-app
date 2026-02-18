@@ -13,10 +13,6 @@ jobs:
   backend-lint:
     name: Backend — Lint & Format
     runs-on: ubuntu-latest
-    if: |
-      contains(toJSON(github.event.commits.*.modified), 'backend/') ||
-      contains(toJSON(github.event.commits.*.added), 'backend/') ||
-      github.event_name == 'pull_request'
     defaults:
       run:
         working-directory: backend
@@ -40,7 +36,6 @@ jobs:
   backend-test:
     name: Backend — Tests (Node ${{ matrix.node-version }})
     runs-on: ubuntu-latest
-    needs: backend-lint
     strategy:
       matrix:
         node-version: ['20', '22']
@@ -97,7 +92,7 @@ jobs:
   backend-docker:
     name: Backend — Docker Build
     runs-on: ubuntu-latest
-    needs: backend-test
+    needs: [backend-lint, backend-test]
     steps:
       - uses: actions/checkout@v5
 
@@ -126,10 +121,6 @@ jobs:
   android-build:
     name: Android — Build & Lint
     runs-on: ubuntu-latest
-    if: |
-      contains(toJSON(github.event.commits.*.modified), 'android/') ||
-      contains(toJSON(github.event.commits.*.added), 'android/') ||
-      github.event_name == 'pull_request'
     defaults:
       run:
         working-directory: android
