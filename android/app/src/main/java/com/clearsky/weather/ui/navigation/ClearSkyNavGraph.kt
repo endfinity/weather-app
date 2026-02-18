@@ -155,7 +155,7 @@ fun ClearSkyNavGraph(
 
         composable<OnThisDayRoute> {
             OnThisDayScreen(
-                onBack = {
+                onNavigateBack = {
                     navController.popBackStack()
                 }
             )
@@ -163,7 +163,7 @@ fun ClearSkyNavGraph(
 
         composable<RadarRoute> {
             RadarScreen(
-                onBack = {
+                onNavigateBack = {
                     navController.popBackStack()
                 }
             )
@@ -171,7 +171,7 @@ fun ClearSkyNavGraph(
 
         composable<PollenDetailRoute> {
             PollenDetailScreen(
-                onBack = {
+                onNavigateBack = {
                     navController.popBackStack()
                 }
             )

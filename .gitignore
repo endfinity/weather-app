@@ -42,3 +42,4 @@ android/*.aab
 android/keystore.properties
 android/*.jks
 android/*.keystore
+*.hprof

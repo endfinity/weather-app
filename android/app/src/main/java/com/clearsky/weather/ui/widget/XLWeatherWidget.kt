@@ -18,6 +18,7 @@ import androidx.glance.background
 import androidx.glance.layout.Alignment
 import androidx.glance.layout.Column
 import androidx.glance.layout.Row
+import androidx.glance.layout.RowScope
 import androidx.glance.layout.Spacer
 import androidx.glance.layout.fillMaxSize
 import androidx.glance.layout.fillMaxWidth
@@ -277,7 +278,7 @@ private fun XLWidgetContent(data: WidgetWeatherData) {
 }
 
 @Composable
-private fun StatItem(
+private fun RowScope.StatItem(
     label: String,
     value: String,
     subtitle: String? = null
