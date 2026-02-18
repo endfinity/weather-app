@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ClearSky</string>
+
+    <!-- Navigation -->
+    <string name="back">Kembali</string>
+    <string name="settings">Tetapan</string>
+    <string name="search_city">Cari Bandar</string>
+    <string name="manage_locations">Urus Lokasi</string>
+
+    <!-- Home Screen -->
+    <string name="welcome_title">Selamat datang ke ClearSky</string>
+    <string name="welcome_subtitle">Tambah lokasi untuk melihat data cuaca</string>
+    <string name="use_current_location">Guna Lokasi Semasa</string>
+    <string name="search_for_a_city">Cari Bandar</string>
+    <string name="offline_banner">Luar talian — menunjukkan data cache</string>
+    <string name="offline_indicator">Penunjuk luar talian</string>
+    <string name="current_location">Lokasi semasa</string>
+    <string name="manage_locations_icon">Urus lokasi</string>
+    <string name="search_city_icon">Cari bandar</string>
+    <string name="settings_icon">Tetapan</string>
+    <string name="updated_format">Dikemas kini %1$s</string>
+    <string name="location_pin">Pin lokasi</string>
+
+    <!-- Premium Features -->
+    <string name="premium_features">Ciri Premium</string>
+    <string name="premium_features_icon">Ciri premium</string>
+    <string name="radar">Radar</string>
+    <string name="on_this_day">Pada Hari Ini</string>
+    <string name="pollen">Debunga</string>
+    <string name="upgrade">Naik Taraf</string>
+
+    <!-- Weather Cards -->
+    <string name="hourly_forecast">RAMALAN SETIAP JAM</string>
+    <string name="daily_forecast">RAMALAN 10 HARI</string>
+    <string name="precipitation">HUJAN</string>
+    <string name="uv_index">INDEKS UV</string>
+    <string name="feels_like">TERASA SEPERTI</string>
+    <string name="wind">ANGIN</string>
+    <string name="air_quality">KUALITI UDARA</string>
+    <string name="humidity">KELEMBAPAN</string>
+    <string name="pressure">TEKANAN</string>
+    <string name="sunrise_sunset">TERBIT &amp; TERBENAM MATAHARI</string>
+    <string name="visibility">PENGLIHATAN</string>
+
+    <!-- Wind Card -->
+    <string name="gusts_format">Hembusan: %1$s</string>
+    <string name="direction_format">Arah: %1$s</string>
+
+    <!-- Humidity Card -->
+    <string name="dew_point_format">Titik embun: %1$s</string>
+    <string name="humidity_very_dry">Sangat kering. Pertimbangkan penggunaan pelembap.</string>
+    <string name="humidity_comfortable">Tahap kelembapan selesa.</string>
+    <string name="humidity_slightly_humid">Sedikit lembap.</string>
+    <string name="humidity_very_humid">Sangat lembap. Mungkin tidak selesa.</string>
+
+    <!-- Pressure Card -->
+    <string name="surface_format">Permukaan: %1$d hPa</string>
+    <string name="pressure_low">Rendah</string>
+    <string name="pressure_below_average">Di bawah purata</string>
+    <string name="pressure_normal">Normal</string>
+    <string name="pressure_above_average">Di atas purata</string>
+    <string name="pressure_high">Tinggi</string>
+
+    <!-- UV Index Card -->
+    <string name="uv_no_protection">Tiada perlindungan diperlukan. Nikmati aktiviti luar!</string>
+    <string name="uv_wear_sunscreen">Pakai pelindung matahari dan topi pada tengah hari.</string>
+    <string name="uv_reduce_exposure">Kurangkan pendedahan matahari antara 10 PG dan 4 PTG.</string>
+    <string name="uv_extra_protection">Perlindungan tambahan diperlukan. Elak pendedahan berpanjangan.</string>
+    <string name="uv_stay_indoors">Kekal di dalam pada tengah hari. Perlindungan maksimum diperlukan.</string>
+
+    <!-- Feels Like Card -->
+    <string name="feels_like_similar">Sama seperti suhu sebenar.</string>
+    <string name="feels_like_warmer">Kelembapan membuatkan ia terasa lebih panas.</string>
+    <string name="feels_like_cooler">Angin membuatkan ia terasa lebih sejuk.</string>
+
+    <!-- Visibility Card -->
+    <string name="visibility_very_poor">Penglihatan sangat teruk. Kabus tebal atau hujan lebat.</string>
+    <string name="visibility_poor">Penglihatan teruk. Kabus atau hujan sederhana.</string>
+    <string name="visibility_moderate">Penglihatan sederhana. Jerebu atau hujan ringan.</string>
+    <string name="visibility_good">Penglihatan baik.</string>
+    <string name="visibility_excellent">Penglihatan cemerlang. Keadaan cerah.</string>
+
+    <!-- Sunrise/Sunset -->
+    <string name="sunrise">Terbit matahari</string>
+    <string name="sunset">Terbenam matahari</string>
+
+    <!-- Precipitation Card -->
+    <string name="rain_expected">Hujan dijangka</string>
+    <string name="no_precipitation">Tiada hujan dijangka</string>
+    <string name="next_minutes_format">%1$d minit seterusnya</string>
+    <string name="now">Sekarang</string>
+
+    <!-- Air Quality -->
+    <string name="aqi_good">Kualiti udara memuaskan. Nikmati aktiviti luar.</string>
+    <string name="aqi_moderate">Kualiti udara boleh diterima. Orang sensitif harus hadkan aktiviti luar.</string>
+    <string name="aqi_unhealthy_sensitive">Kumpulan sensitif mungkin mengalami kesan kesihatan. Hadkan senaman luar.</string>
+    <string name="aqi_unhealthy">Semua orang mungkin mengalami kesan kesihatan. Kurangkan senaman luar berpanjangan.</string>
+    <string name="aqi_very_unhealthy">Amaran kesihatan: risiko ketara. Elak aktiviti luar.</string>
+    <string name="aqi_hazardous">Kecemasan kesihatan. Kekal di dalam dan tutup tingkap.</string>
+
+    <!-- Alert Banner -->
+    <string name="alert">Amaran</string>
+    <string name="view_details">Lihat butiran</string>
+    <string name="more_alerts_format">+%1$d amaran lagi</string>
+    <string name="more_alerts_plural_format">+%1$d amaran lagi</string>
+
+    <!-- Error State -->
+    <string name="no_internet_title">Tiada Sambungan Internet</string>
+    <string name="unable_to_load">Tidak dapat memuatkan cuaca</string>
+    <string name="no_internet_message">Semak sambungan anda dan cuba lagi. Data cuaca akan dimuat secara automatik apabila anda kembali dalam talian.</string>
+    <string name="no_internet_icon">Tiada sambungan internet</string>
+    <string name="error_loading_icon">Ralat memuatkan data</string>
+    <string name="try_again">Cuba Lagi</string>
+
+    <!-- Search Screen -->
+    <string name="search_placeholder">Cari nama bandar…</string>
+    <string name="clear">Padam</string>
+    <string name="search_for_a_city_to_add">Cari bandar untuk ditambah</string>
+    <string name="add_location">Tambah lokasi</string>
+    <string name="population_format">Pop. %1$s</string>
+
+    <!-- Location Management -->
+    <string name="current_label">Semasa</string>
+    <string name="no_saved_locations">Tiada lokasi tersimpan</string>
+    <string name="add_city_prompt">Tambah bandar untuk bermula</string>
+    <string name="add_city">Tambah Bandar</string>
+    <string name="delete">Padam</string>
+
+    <!-- Settings Screen -->
+    <string name="section_units">Unit</string>
+    <string name="section_appearance">Penampilan</string>
+    <string name="section_about">Perihal</string>
+    <string name="setting_temperature">Suhu</string>
+    <string name="setting_wind_speed">Kelajuan Angin</string>
+    <string name="setting_precipitation">Hujan</string>
+    <string name="setting_time_format">Format Masa</string>
+    <string name="setting_theme">Tema</string>
+    <string name="setting_dynamic_color">Warna Dinamik</string>
+    <string name="setting_dynamic_color_desc">Gunakan warna dari kertas dinding anda</string>
+    <string name="about_version">Versi</string>
+    <string name="about_data_source">Sumber Data</string>
+    <string name="about_air_quality">Kualiti Udara</string>
+    <string name="about_open_meteo_desc">Data cuaca disediakan oleh Open-Meteo.com</string>
+    <string name="about_license">Dilesenkan di bawah CC BY 4.0</string>
+
+    <!-- High/Low Temperature -->
+    <string name="high_format">T: %1$s</string>
+    <string name="low_format">R: %1$s</string>
+    <string name="feels_like_format">Terasa seperti %1$s</string>
+
+    <!-- Compass Directions -->
+    <string name="compass_n">U</string>
+    <string name="compass_s">S</string>
+    <string name="compass_e">T</string>
+    <string name="compass_w">B</string>
+</resources>

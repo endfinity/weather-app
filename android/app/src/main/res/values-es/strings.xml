@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ClearSky</string>
+
+    <!-- Navigation -->
+    <string name="back">Atrás</string>
+    <string name="settings">Ajustes</string>
+    <string name="search_city">Buscar ciudad</string>
+    <string name="manage_locations">Gestionar ubicaciones</string>
+
+    <!-- Home Screen -->
+    <string name="welcome_title">Bienvenido a ClearSky</string>
+    <string name="welcome_subtitle">Añade una ubicación para ver el clima</string>
+    <string name="use_current_location">Usar ubicación actual</string>
+    <string name="search_for_a_city">Buscar una ciudad</string>
+    <string name="offline_banner">Sin conexión — mostrando datos en caché</string>
+    <string name="offline_indicator">Indicador sin conexión</string>
+    <string name="current_location">Ubicación actual</string>
+    <string name="manage_locations_icon">Gestionar ubicaciones</string>
+    <string name="search_city_icon">Buscar ciudad</string>
+    <string name="settings_icon">Ajustes</string>
+    <string name="updated_format">Actualizado %1$s</string>
+    <string name="location_pin">Pin de ubicación</string>
+
+    <!-- Premium Features -->
+    <string name="premium_features">Funciones Premium</string>
+    <string name="premium_features_icon">Funciones premium</string>
+    <string name="radar">Radar</string>
+    <string name="on_this_day">Un día como hoy</string>
+    <string name="pollen">Polen</string>
+    <string name="upgrade">Mejorar</string>
+
+    <!-- Weather Cards -->
+    <string name="hourly_forecast">PRONÓSTICO POR HORA</string>
+    <string name="daily_forecast">PRONÓSTICO 10 DÍAS</string>
+    <string name="precipitation">PRECIPITACIÓN</string>
+    <string name="uv_index">ÍNDICE UV</string>
+    <string name="feels_like">SENSACIÓN TÉRMICA</string>
+    <string name="wind">VIENTO</string>
+    <string name="air_quality">CALIDAD DEL AIRE</string>
+    <string name="humidity">HUMEDAD</string>
+    <string name="pressure">PRESIÓN</string>
+    <string name="sunrise_sunset">AMANECER Y ATARDECER</string>
+    <string name="visibility">VISIBILIDAD</string>
+
+    <!-- Wind Card -->
+    <string name="gusts_format">Ráfagas: %1$s</string>
+    <string name="direction_format">Dirección: %1$s</string>
+
+    <!-- Humidity Card -->
+    <string name="dew_point_format">Punto de rocío: %1$s</string>
+    <string name="humidity_very_dry">Muy seco. Considere usar un humidificador.</string>
+    <string name="humidity_comfortable">Nivel de humedad cómodo.</string>
+    <string name="humidity_slightly_humid">Ligeramente húmedo.</string>
+    <string name="humidity_very_humid">Muy húmedo. Puede resultar incómodo.</string>
+
+    <!-- Pressure Card -->
+    <string name="surface_format">Superficie: %1$d hPa</string>
+    <string name="pressure_low">Baja</string>
+    <string name="pressure_below_average">Por debajo del promedio</string>
+    <string name="pressure_normal">Normal</string>
+    <string name="pressure_above_average">Por encima del promedio</string>
+    <string name="pressure_high">Alta</string>
+
+    <!-- UV Index Card -->
+    <string name="uv_no_protection">No se necesita protección. ¡Disfrute del aire libre!</string>
+    <string name="uv_wear_sunscreen">Use protector solar y sombrero durante el mediodía.</string>
+    <string name="uv_reduce_exposure">Reduzca la exposición solar entre las 10 AM y las 4 PM.</string>
+    <string name="uv_extra_protection">Se requiere protección adicional. Evite la exposición prolongada.</string>
+    <string name="uv_stay_indoors">Quédese en interiores al mediodía. Protección máxima necesaria.</string>
+
+    <!-- Feels Like Card -->
+    <string name="feels_like_similar">Similar a la temperatura real.</string>
+    <string name="feels_like_warmer">La humedad hace que se sienta más cálido.</string>
+    <string name="feels_like_cooler">El viento hace que se sienta más frío.</string>
+
+    <!-- Visibility Card -->
+    <string name="visibility_very_poor">Visibilidad muy pobre. Niebla densa o precipitación fuerte.</string>
+    <string name="visibility_poor">Visibilidad pobre. Niebla o precipitación moderada.</string>
+    <string name="visibility_moderate">Visibilidad moderada. Bruma o precipitación ligera.</string>
+    <string name="visibility_good">Buena visibilidad.</string>
+    <string name="visibility_excellent">Visibilidad excelente. Condiciones despejadas.</string>
+
+    <!-- Sunrise/Sunset -->
+    <string name="sunrise">Amanecer</string>
+    <string name="sunset">Atardecer</string>
+
+    <!-- Precipitation Card -->
+    <string name="rain_expected">Se espera lluvia</string>
+    <string name="no_precipitation">No se espera precipitación</string>
+    <string name="next_minutes_format">Próximos %1$d min</string>
+    <string name="now">Ahora</string>
+
+    <!-- Air Quality -->
+    <string name="aqi_good">La calidad del aire es satisfactoria. Disfrute de actividades al aire libre.</string>
+    <string name="aqi_moderate">Calidad del aire aceptable. Personas sensibles deben limitar actividad exterior.</string>
+    <string name="aqi_unhealthy_sensitive">Grupos sensibles pueden experimentar efectos. Limite el esfuerzo al aire libre.</string>
+    <string name="aqi_unhealthy">Todos pueden experimentar efectos. Reduzca el esfuerzo prolongado al aire libre.</string>
+    <string name="aqi_very_unhealthy">Alerta sanitaria: riesgo significativo. Evite actividades al aire libre.</string>
+    <string name="aqi_hazardous">Emergencia sanitaria. Permanezca en interiores y cierre las ventanas.</string>
+
+    <!-- Alert Banner -->
+    <string name="alert">Alerta</string>
+    <string name="view_details">Ver detalles</string>
+    <string name="more_alerts_format">+%1$d alerta más</string>
+    <string name="more_alerts_plural_format">+%1$d alertas más</string>
+
+    <!-- Error State -->
+    <string name="no_internet_title">Sin conexión a Internet</string>
+    <string name="unable_to_load">No se puede cargar el clima</string>
+    <string name="no_internet_message">Revise su conexión e inténtelo de nuevo. Los datos meteorológicos se cargarán automáticamente cuando vuelva a estar en línea.</string>
+    <string name="no_internet_icon">Sin conexión a Internet</string>
+    <string name="error_loading_icon">Error al cargar datos</string>
+    <string name="try_again">Reintentar</string>
+
+    <!-- Search Screen -->
+    <string name="search_placeholder">Buscar nombre de ciudad…</string>
+    <string name="clear">Borrar</string>
+    <string name="search_for_a_city_to_add">Buscar una ciudad para añadir</string>
+    <string name="add_location">Añadir ubicación</string>
+    <string name="population_format">Pob. %1$s</string>
+
+    <!-- Location Management -->
+    <string name="current_label">Actual</string>
+    <string name="no_saved_locations">Sin ubicaciones guardadas</string>
+    <string name="add_city_prompt">Añada una ciudad para comenzar</string>
+    <string name="add_city">Añadir ciudad</string>
+    <string name="delete">Eliminar</string>
+
+    <!-- Settings Screen -->
+    <string name="section_units">Unidades</string>
+    <string name="section_appearance">Apariencia</string>
+    <string name="section_about">Acerca de</string>
+    <string name="setting_temperature">Temperatura</string>
+    <string name="setting_wind_speed">Velocidad del viento</string>
+    <string name="setting_precipitation">Precipitación</string>
+    <string name="setting_time_format">Formato de hora</string>
+    <string name="setting_theme">Tema</string>
+    <string name="setting_dynamic_color">Color dinámico</string>
+    <string name="setting_dynamic_color_desc">Aplicar colores de su fondo de pantalla</string>
+    <string name="about_version">Versión</string>
+    <string name="about_data_source">Fuente de datos</string>
+    <string name="about_air_quality">Calidad del aire</string>
+    <string name="about_open_meteo_desc">Datos meteorológicos proporcionados por Open-Meteo.com</string>
+    <string name="about_license">Licenciado bajo CC BY 4.0</string>
+
+    <!-- High/Low Temperature -->
+    <string name="high_format">H: %1$s</string>
+    <string name="low_format">L: %1$s</string>
+    <string name="feels_like_format">Sensación de %1$s</string>
+
+    <!-- Compass Directions -->
+    <string name="compass_n">N</string>
+    <string name="compass_s">S</string>
+    <string name="compass_e">E</string>
+    <string name="compass_w">O</string>
+</resources>

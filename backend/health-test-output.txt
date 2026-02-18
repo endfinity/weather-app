@@ -1,0 +1,19 @@
+﻿(node:30924) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:30924) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+Γû╢ GET /api/health
+  Γ£ö returns health status (13.7118ms)
+  Γ£ö includes version and timestamp (2.5214ms)
+  Γ£ö includes database check (1.5262ms)
+  Γ£ö includes upstream check (1.5361ms)
+  Γ£ö includes memory check (1.3935ms)
+  Γ£ö includes cache stats (1.3392ms)
+Γ£ö GET /api/health (40.1911ms)
+Γä╣ tests 6
+Γä╣ suites 1
+Γä╣ pass 6
+Γä╣ fail 0
+Γä╣ cancelled 0
+Γä╣ skipped 0
+Γä╣ todo 0
+Γä╣ duration_ms 493.3838

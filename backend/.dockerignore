@@ -1,0 +1,37 @@
+# Dependencies
+node_modules
+npm-debug.log*
+
+# Data / runtime artifacts
+data/
+*.db
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+firebase-service-account.json
+
+# Source control
+.git
+.gitignore
+
+# Docker
+Dockerfile
+docker-compose*.yml
+.dockerignore
+
+# IDE & OS
+.vscode
+.idea
+*.iml
+.DS_Store
+Thumbs.db
+
+# Tests & dev tooling
+tests/
+coverage/
+.prettierrc
+.prettierignore
+eslint.config.js
+nodemon.json

@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:name=".ClearSkyApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ClearSky">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.ClearSky.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.clearsky.weather.VIEW_ALERT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".data.notification.WeatherNotificationService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="severe_alerts" />
+
+        <!-- Small Weather Widget (2×1) -->
+        <receiver
+            android:name=".ui.widget.SmallWeatherWidgetReceiver"
+            android:exported="true"
+            android:label="ClearSky Small">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/small_weather_widget_info" />
+        </receiver>
+
+        <!-- Medium Weather Widget (3×2) -->
+        <receiver
+            android:name=".ui.widget.MediumWeatherWidgetReceiver"
+            android:exported="true"
+            android:label="ClearSky Medium">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/medium_weather_widget_info" />
+        </receiver>
+
+        <!-- Large Weather Widget (4×3) -->
+        <receiver
+            android:name=".ui.widget.LargeWeatherWidgetReceiver"
+            android:exported="true"
+            android:label="ClearSky Large">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/large_weather_widget_info" />
+        </receiver>
+
+        <!-- XL Weather Widget (4×4) -->
+        <receiver
+            android:name=".ui.widget.XLWeatherWidgetReceiver"
+            android:exported="true"
+            android:label="ClearSky XL">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/xl_weather_widget_info" />
+        </receiver>
+
+        <!-- AQI Widget (2×2) -->
+        <receiver
+            android:name=".ui.widget.AqiWidgetReceiver"
+            android:exported="true"
+            android:label="ClearSky AQI">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/aqi_widget_info" />
+        </receiver>
+
+        <!-- Compact Forecast Widget (4×2) -->
+        <receiver
+            android:name=".ui.widget.CompactForecastWidgetReceiver"
+            android:exported="true"
+            android:label="ClearSky Forecast">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/compact_forecast_widget_info" />
+        </receiver>
+    </application>
+</manifest>

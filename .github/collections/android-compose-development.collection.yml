@@ -1,0 +1,22 @@
+﻿name: android-compose-development
+description: Complete Android development toolkit for building native apps with Kotlin, Jetpack Compose, and Material 3. Includes coding standards, architecture patterns, and screen generation tools.
+tags:
+  - android
+  - kotlin
+  - jetpack-compose
+  - material-3
+  - mvvm
+  - clean-architecture
+  - hilt
+  - retrofit
+  - room
+items:
+  - type: instruction
+    path: .github/instructions/android-kotlin-compose.instructions.md
+    description: Comprehensive Android/Kotlin/Compose coding standards and architecture patterns
+  - type: agent
+    path: .github/agents/android-expert.agent.md
+    description: Expert Android development agent with code generation patterns
+  - type: prompt
+    path: .github/prompts/generate-android-screen.prompt.md
+    description: Generate new Android screens following project architecture
