@@ -4,6 +4,9 @@
   "description": "ClearSky Weather App — Backend proxy and aggregation server for Open-Meteo APIs",
   "main": "src/index.js",
   "type": "module",
+  "engines": {
+    "node": ">=22.0.0"
+  },
   "scripts": {
     "start": "node --no-deprecation src/index.js",
     "dev": "nodemon --no-deprecation src/index.js",
